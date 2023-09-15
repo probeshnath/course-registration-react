@@ -1,39 +1,9 @@
+/* eslint-disable no-const-assign */
 /* eslint-disable react/prop-types */
 
-import { useEffect, useState } from "react"
+// import { useEffect, useState } from "react"
 
-const Registration = ({cartItem}) => {
-  const [remainingCredit, setRemainingCredit] = useState(20);
-  const [price, setPrice] = useState(0);
-  const [credit, setCredit] = useState(0)
-
-  useEffect(() => {
-    let totalPrice = 0;
-    let totalCredit = 0;
-
-    cartItem.forEach((cart) => {
-      const cartPrice = cart.price;
-      const cartCredit = cart.credit;
-
-      totalPrice += cartPrice;
-      totalCredit += cartCredit;
-    });
-
-    setPrice(totalPrice);
-    if(totalCredit > 20){
-      return console.log("you cross your credit limit")
-    }
-    setCredit(totalCredit);
-
-    // Calculate remaining credit hours based on the initial value of 20 and subtracting totalCredit
-    const remainingCredit = 20 - totalCredit;
-    if(remainingCredit <= 0){
-     return console.log("you have no remaining hour")
-    }
-    setRemainingCredit(remainingCredit);
-  }, [cartItem]);
-
-
+const Registration = ({cartItem, price,credit,remainingCredit}) => {
 
 
   // console.log(cartItem)
