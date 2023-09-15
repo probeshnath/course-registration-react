@@ -22,7 +22,6 @@ function App() {
     <>
       <div className="">
         <h2 className="text-center text-3xl font-bold pt-8 pb-3" >Course Registration</h2>
-
         {/* course and cart container */}
         <div className="flex gap-3">
 
