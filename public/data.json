@@ -12,7 +12,7 @@
     "image": "https://i.ibb.co/X3xQVWw/Java-Script-Development-Tools.png",
     "credit": 4,
     "course_name": "JavaScript Web Development",
-    "price": 59.99,
+    "price": 50.99,
     "description": "Master the art of building interactive web applications with JavaScript, HTML, and CSS."
   },
   {
@@ -20,7 +20,7 @@
     "image": "https://i.ibb.co/ZcKTSz0/Rectangle-3.png",
     "credit": 5,
     "course_name": "Data Science with R",
-    "price": 69.99,
+    "price": 65.49,
     "description": "Explore data analysis and visualization using the R programming language and its libraries."
   },
   {
@@ -28,7 +28,7 @@
     "image": "https://i.ibb.co/z7PTX2X/Java-Projects-for-Beginners.jpg",
     "credit": 3,
     "course_name": "Java for Beginners",
-    "price": 49.99,
+    "price": 40.19,
     "description": "Get started with Java programming and build your foundation in object-oriented programming."
   },
   {
@@ -36,7 +36,7 @@
     "image": "https://i.ibb.co/FW9gkYL/images-q-tbn-ANd9-Gc-QEp-Qg-JJk-Q98l-Xxe-ZTf-Ge-SNszj-15-M6-VVKxhpl7u-Hr-JQV2-Vjra-UKEAXbhu-IUJa-WB2.jpg",
     "credit": 4,
     "course_name": "Full-Stack Web Development with Node.js",
-    "price": 79.99,
+    "price": 70.90,
     "description": "Learn how to build modern web applications using Node.js, Express, and MongoDB."
   },
   {
@@ -52,7 +52,7 @@
     "image": "https://i.ibb.co/Yp761qp/Rectangle-2-2.png",
     "credit": 3,
     "course_name": "C++ Programming Fundamentals",
-    "price": 59.99,
+    "price": 50.20,
     "description": "Gain a strong understanding of C++ programming, from basics to advanced concepts."
   },
   {
@@ -68,7 +68,7 @@
     "image": "https://i.ibb.co/3T6XSQG/hq720.jpg",
     "credit": 5,
     "course_name": "Machine Learning and Deep Learning",
-    "price": 89.99,
+    "price": 80.96,
     "description": "Dive into the world of machine learning and deep learning to build intelligent systems."
   }
 ]

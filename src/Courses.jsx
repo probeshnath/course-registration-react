@@ -6,7 +6,7 @@ const Courses = ({courses,courseRegistration}) => {
 
   return (
     <div className="flex-1">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className="grid mx-2 md:mx-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {
           courses?.map((course,index) =>(
             <Course course={course} courseRegistration={courseRegistration}  key={index}/>

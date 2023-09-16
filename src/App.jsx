@@ -32,8 +32,7 @@ function App() {
       }else if (credit + course.credit > 20) {
         return toast.error("This course would exceed the maximum credit limit");
       } else{
-        
-        toast.success("Course Registration Done !!")
+        toast.success("Course Registration Done!!")
         setCartItem([...cartItem ,course]);
       }
     }
@@ -68,7 +67,7 @@ function App() {
        return setRemainingCredit(0);
     }
     setRemainingCredit(remainingCredit);
-    setPrice(totalPrice);
+    setPrice(totalPrice.toFixed(2));
   }, [cartItem]);
 
 
@@ -79,7 +78,7 @@ function App() {
       <div className="">
         <h2 className="text-center text-3xl font-bold pt-8 pb-3" >Course Registration</h2>
         {/* course and cart container */}
-        <div className="flex gap-3">
+        <div className="md:flex gap-3">
 
           {/* course  */}
           <Courses courses={courses} courseRegistration={courseRegistration} />

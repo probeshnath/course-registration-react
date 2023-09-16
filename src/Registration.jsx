@@ -8,7 +8,7 @@ const Registration = ({cartItem, price,credit,remainingCredit}) => {
 
   // console.log(cartItem)
   return (
-    <div className="egistration-container">
+    <div className="registration-container">
       <div className="bg-white p-5 rounded-md">
         <h4 className="text-lg font-bold text-blue-700 pb-2">Credit Hour Remaining {remainingCredit}hr</h4>
         <hr />

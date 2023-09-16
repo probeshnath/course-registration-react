@@ -8,7 +8,7 @@
 
 #### Question 1:  Add at least 3 Project features
 
-1. Course register: when i click on select then my selected course add in my cart. And i also add this selected card or course title displayed in  Course Name list and when i add any course add in my cart then this course credit and hour addition on my credit course and i have fixed 20hour . Everytime it reduce by adding new courses . And also every course price are set in usestate hook variable and it also displayed in my cart.
+. Course register: when i click on select then my selected course add in my cart. And i also add this selected card or course title displayed in  Course Name list and when i add any course add in my cart then this course credit and hour addition on my credit course and i have fixed 20hour . Everytime it reduce by adding new courses . And also every course price are set in usestate hook variable and it also displayed in my cart.
 
 2. Toast alert: When i add a new course in my cart ,then get a success toast pop-up, which is interactive my website and when i try to again add existing cart , then i get an error. When my credit and remaining hour are finished , then also i get an error , it's displayed that "you spend your all credit , now you can not buy or select other course. It's a very intersting and user frindly.
 
