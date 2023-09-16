@@ -1,7 +1,7 @@
 /* eslint-disable no-const-assign */
 /* eslint-disable react/prop-types */
 
-// import { useEffect, useState } from "react"
+
 
 const Registration = ({cartItem, price,credit,remainingCredit}) => {
 
@@ -29,4 +29,4 @@ const Registration = ({cartItem, price,credit,remainingCredit}) => {
   )
 }
 
-export default Registration
+export default Registration;
