@@ -8,14 +8,14 @@
 
 #### Question 1:  Add at least 3 Project features
 
-. Course register: when i click on select then my selected course add in my cart. And i also add this selected card or course title displayed in  Course Name list and when i add any course add in my cart then this course credit and hour addition on my credit course and i have fixed 20hour . Everytime it reduce by adding new courses . And also every course price are set in usestate hook variable and it also displayed in my cart.
+1. Course register: when i click on select button then my selected course added in my cart. And i also displayed this selected card or course title  in  Course Name list and when i add any course add in my cart then this course credit addition and hour are substraction from my credit course and remaining hour and i have fixed 20hour to purchase or registration any course. Everytime it reduce by adding new courses . And also every course price are set in usestate hook variable and it also displayed in my cart as total price.
 
-2. Toast alert: When i add a new course in my cart ,then get a success toast pop-up, which is interactive my website and when i try to again add existing cart , then i get an error. When my credit and remaining hour are finished , then also i get an error , it's displayed that "you spend your all credit , now you can not buy or select other course. It's a very intersting and user frindly.
+2. Toast alert: When i add a new course in my cart ,then i set a success toast pop-up, which is interactive my website and user can understande easily that he successful registration his course and when i try to again add existing cart , then i set an error. When credit and remaining hour are finished , then also i set an error , it's displayed that "you spend your all credit , now you can not buy or select other course. It's a very intersting and user frindly.
 
 3. There are another intersting feature is no one can buy or purchase course after cross credit limitation.
-It's show an error.
+It's shows an error.
 
-4. When user select a course that time there are so many things are change. Like, when user select a course then price will be store in an variable and everytime he spend his credit and after finished 20 credit he can't buy other course. 
+4. When user select a course that time there are so many state are changes. Like, when user select a course then price will be store in an variable and everytime he spend his credit and after finished 20 credit he can't buy other course. Also remaining hour are reduce from fixed 20 hours.
  
 
 
